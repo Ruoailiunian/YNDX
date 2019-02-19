@@ -6,9 +6,11 @@
 <link rel="stylesheet" type="text/css" href="css/clear.css">
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
 <script type="text/javascript" src="js/web.js"></script>
 </head>
 <body>
@@ -40,8 +42,66 @@
 	</div>
 	<div class="banner"><img src="images/banner.png"></div>
 	<div class="main">
-		<div class="dyp"></div>
+		<div class="dyp">
+			<div class="dypL">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide"><a href="#"><img src="images/img1.jpg"><span>云南大学国际科技合作平台1</span></a></div>
+				        <div class="swiper-slide"><a href="#"><img src="images/img2.jpg"><span>云南大学国际科技合作平台2</span></a></div>
+				        <div class="swiper-slide"><a href="#"><img src="images/img3.jpg"><span>云南大学国际科技合作平台3</span></a></div>
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination Tb_right"></div>				    
+				</div>
+			</div>
+			<div class="dypR">
+				<div class="lmBt"><i></i><span>科技要闻</span><a href="#">More</a></div>
+				<div class="newTt">
+					<h3><a href="#">2019年度国家自然科学基金委员会与俄罗斯基础研究</a></h3>
+					<p>根据国家自然科学基金委员会（NSFC）与俄罗斯基础研究基金会（RFBR）双边合作协议， 2019年双方将共同资助中俄合作研究项目，促进两国科学家之间的合作与创新研究。</p>
+				</div>
+				<div class="newli">
+					<ul class="nwe1">
+						<li><a href="#">Chemical Science发表夏成峰团队可见光反应研究成果</a><span>02-19</span></li>
+						<li><a href="#">杨崇林研究组和郭伟翔研究组联合揭示人类高赖氨酸血症的发病机理</a><span>02-19</span></li>
+						<li><a href="#">Current Biology 发表侯先光团队寒武纪泛甲壳类起源研究成果</a><span>02-19</span></li>
+						<li><a href="#">科技处召开2019年度国家自然科学基金项目申报动员会</a><span>02-19</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="dep">
+			<div class="lmBt1">
+				<h3>学科优势</h3>
+				<p>这里是一个副标题的内容</p>
+			</div>
+			<div class="kxys">
+				<ul>
+					<li><a href="#"><span><i></i></span></a><span>课程优势</span><p></p></li>
+					<li><a href="#"><span><i></i></span></a><span>环境优势</span><p></p></li>
+					<li><a href="#"><span><i></i></span></a><span>就业优势</span><p></p></li>
+					<li><a href="#"><span><i></i></span></a><span>科技优势</span><p></p></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 	<div class="footer"></div>
+
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+  	autoplay:{
+  		disableOnInteraction: false,
+  	},
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+      clickable :true,
+    },
+
+  })        
+  </script>
 </body>
 </html>
