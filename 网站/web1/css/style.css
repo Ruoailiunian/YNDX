@@ -1,19 +1,19 @@
-a{ text-decoration: none; }
+a:hover,a:focus{ text-decoration: none; }
 .top{ width: 100%; height: 35px; line-height: 35px; background: #2863a7; color: #fff; display: none; }
 .top a{ color: #fff; text-decoration: none; }
 
-.head{ width: 100%; height: 120px; background: #337aca; }
-.headN{ width: 1200px; height: 120px; position: relative; margin: 0px auto; }
-.logo{ width: 600px; height: 120px; float: left; }
+.head{ width: 100%;background: #337aca; }
+.headN{/* width: 1200px;*/ position: relative; margin: 0px auto; }
+.logo{ /*width: 600px;*/ }
 .logo img{ width: 100%; height: 100%; }
-.ss{ width: 600px; height: 120px; float: right; }
+.ss{  }
 .ssL, .ssR{ margin-top: 40px; }
 .ssL input{ height: 40px; line-height: 40px; }
 .ssR button{ width:70%; height: 40px; background: #ff2d00; border:none; }
 .ssR button:hover,.ssR button:active, .ssR button:focus,.ssR button:active:focus{ background: #ff2d00;}
 
 .nav{ width: 100%; height: 50px; line-height: 50px; background: #2863a7; ; }
-.navN{ width: 1200px; height: 50px; line-height: 50px; position: relative; margin: 0px auto; }
+.navN{ /*width: 1200px;*/ height: 50px; line-height: 50px; position: relative; margin: 0px auto; }
 .nav ul{ width: 100%; margin: 0px; padding: 0px; }
 .nav ul li{ width: 10%; float: left; text-align: center; }
 .nav ul li a{ color: #fff; text-decoration: none; }
@@ -23,28 +23,106 @@ a{ text-decoration: none; }
 
 .main{ width: 100%; position: relative; margin: 0px auto; min-height: 300px; background: #fff; margin-top: 5px; }
 
-.dyp{ width: 1200px; position: relative; margin: 0px auto; height: 300px; background: #fff; }
-.dypL{ width: 633px; height: 300px; float: left; background: #eee; float: left; }
+.dyp{ /*width: 1200px;*/ position: relative; margin: 0px auto;  background: #fff; }
+.dypL{ /*width: 633px;*/  /*background: #eee;*/  }
+.dypL .swiper-slide{/* text-align: center;*/ }
+.dypL .swiper-slide img{ width: 100%; }
 .dypL .swiper-pagination{ width: auto; left: auto; right: 30px; }
 .dypL .swiper-wrapper .swiper-slide span{ position: absolute; z-index: 99; width: 100%; left: 0px; bottom: 0px; display: block; height: 35px; line-height: 35px; text-indent: 1em; background: #978986; background: rgba(77,86,109,0.5); color: #fff; }
-.dypR{ width: 550px; height: 300px; float: right; }
+.dypR{ /*width: 550px;*/  }
 .newTt{ clear: both; }
-.newTt h3{ width: 100%; height: 55px; line-height: 55px; padding: 0px; margin: 0px; }
+.newTt h3{ width: 100%; height: 55px; line-height: 55px; padding: 0px; margin: 0px; overflow: hidden; }
 .newTt h3 a{ font-size: 16px; color: #fc8d29; }
 .newTt p{ line-height: 25px; font-size: 13px; color: #999; }
 
-.dep{ width: 1200px; position: relative; margin: 0px auto; clear: both;  margin-top: 10px;}
+.dep{ /*width: 1200px;*/ position: relative; margin: 0px auto; clear: both;  margin-top: 20px;}
+.kxys{ width: 100%; /*height: 230px;*/margin-top: 20px; }
+.kxys ul{ margin: 0px; padding: 0px; }
+.kxys ul li{  height: 230px; text-align: center; }
+.kxys ul li a{ width: 100px; height: 100px; background: #2863a7; display: block; position: relative; margin: 0px auto; margin-top: 10px; }
+.kxys ul li a span{ display: block; width: 100px; height: 100px; background: url(../images/depmb.png) no-repeat center center; }
+.kxys ul li a i{ font-size: 30px;color: #fff; display: block; width: 100%; height: 100px; line-height: 100px; text-align: center; }
+.kxys ul li em{ display: block; width: 100%; height: 45px; line-height: 45px; font-size: 16px; }
+.kxys ul li p{ font-size: 12px; color: #999; text-align: center; line-height: 25px; height: 50px; }
 
+.kxys ul li:nth-child(1) a{ background: #f57382; }
+.kxys ul li:nth-child(2) a{ background: #02bec4; }
+.kxys ul li:nth-child(3) a{ background: #ffcb3f; }
+.kxys ul li:nth-child(4) a{ background: #c06c84; }
+
+.dsp{ /*width: 1200px;*/ position: relative; margin: 0px auto; margin-top: 20px; }
+.dspL{/* width: 600px; */ }
+.dspL .layui-timeline{ margin-top: 20px; }
+.dspL .layui-text span{ font-size: 14px; margin-bottom: 5px; display: block; font-weight: bold; }
+.dspL .layui-text h4{  line-height: 35px; font-size: 15px; }
+.dspL .layui-text h4 a{ color: #000; }
+.dspL .layui-text p{ color: #999; font-size: 12px; }
+.dspL .layui-tab-title li{ font-weight: bold; font-size: 15px; padding: 0px 30px; }
+.dspL .layui-tab-title li.layui-this{ background: #2863a7; color: #fff; border:none; }
+.dspL .layui-tab-title li.layui-this:after{ border:none; }
+.dspR{/* width: 580px;*/  }
+.dspR .row{ clear: both; margin-top: 10px; }
+.dspR .thumbnail{ overflow:hidden; position: relative; }
+.dspR .caption{ position: absolute; left: 0px; bottom: 10px;background: #978986; background: rgba(77,86,109,0.5); color: #fff; padding: 4px; width: 90%; margin-left: 5%; height: 35px; line-height: 35px; display: none;}
+.dspR .caption h4{ height: 35px; line-height: 35px; padding: 0px; margin: 0px; font-size: 13px; }
+
+.dsip{ margin-top: 10px; clear: both; }
+.dsip .swiper-container{ margin-top: 25px; }
+.dsip .HdDiv{ margin: 10px 0px; }
+.dsip .HdL img{ width: 100%; }
+.dsip .HdBt{ line-height: 25px; font-size: 15px;}
+.dsip .HdBt a{ color: #000; }
+.dsip .HdText{ line-height: 25px; color: #999; }
+
+.dwp{ margin-top: 20px; }
+.hyxx{ width: 100%; margin-top: 20px; }
+.hyxxDiv{ width: 100%; background: #f6f6f6; padding: 15px; margin: 10px 0px; height: 220px; border:1px solid #eee; border-radius: 5px; }
+.hyxx h4{ height: 35px; line-height: 35px; font-size: 15px; position: relative; overflow: hidden;  }
+.hyxx h4 a{ color: #000; }
+.hyxx p{ line-height: 25px; color: #999; margin-top: 10px; height: 95px; position: relative; overflow: hidden; font-size: 12px; }
+.hyxx .hytime{ width: 100%; height: 30px; line-height: 30px; color: #999; border-bottom: 1px dotted #ccc; }
+.hyxx .hytime i{ margin-right: 10px; font-size: 12px; }
+.hyxx .hydd{ float: right; height: 30px;  line-height: 30px; color: #555; }
+.hyxx .hydd i{ margin-right: 10px; }
 
 .lmBt{ width: 100%; height: 45px; line-height: 45px; border-bottom: 2px solid #f6f6f6; }
-.lmBt span{ padding: 0px 30px; border-bottom: 2px solid #337aca; display: block; float: left; font-size: 14px; font-weight: 600; }
+.lmBt span{ padding: 0px 30px; border-bottom: 2px solid #337aca; display: block; float: left; font-size: 15px; font-weight: 600; }
 .lmBt a{ float: right; color: #888; font-size: 12px; margin-right: 10px; }
 
 .nwe1{ color: #999; margin-left: 10px; }
 .nwe1 li{ height: 35px; line-height: 35px; list-style-type: disc; }
-.nwe1 li a{ color: #333; font-size: 13px; }
+.nwe1 li a{ color: #333; font-size: 13px; width: 90%; float: left; height: 35px; line-height: 35px; position: relative; overflow: hidden; }
 .nwe1 li span{ float: right; font-size: 12px; color: #999; }
 
-.lmBt1{ width: 100%; height: 45px; text-align: center; }
-.lmBt1 h3{ font-size: 16px; font-weight: 600; }
-.lmBt1 p{ color: #999; font-size: 12px; }
+.lmBt1{ width: 100%; height: 70px; text-align: center; background: url(../images/lmbt1.png) no-repeat center center; }
+.lmBt1 h3{ font-size: 16px; font-weight: 600; height: 40px; line-height: 40px; }
+.lmBt1 p{ color: #999; font-size: 12px; height: 20px; line-height: 20px; }
+
+.footer{ width: 100%; background: #337aca; border-top: 20px solid #2863a7; }
+.footerN{ position: relative; margin: 0px auto; }
+.ljbt{ width: 100%; height: 45px; line-height: 45px; font-size: 15px; font-weight: bold; color: #fff; }
+.ljbt span{ padding-right: 20px; border-bottom: 1px solid #fff; display: block; height: 45px; float: left; }
+.ljlist li{ height: 30px; line-height: 30px; }
+.ljlist li a{ color: #fff; font-size: 13px; }
+.Ztwz{ margin-top: 20px; }
+.Ztwz p{ line-height: 30px; color: #fff; text-align: left; width: 100%; margin: 10px 0px; font-size: 13px; }
+.Ztwz p span{ display: block; }
+.Ztwz p em{ display: block; }
+.Qtlj img{ width: 90%; margin-top: 20px; }
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1052782 */
+  src: url('http://at.alicdn.com/t/font_1052782_co7jcjvuha.eot');
+  src: url('http://at.alicdn.com/t/font_1052782_co7jcjvuha.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1052782_co7jcjvuha.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_1052782_co7jcjvuha.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1052782_co7jcjvuha.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1052782_co7jcjvuha.svg#iconfont') format('svg');
+}
+
+.iconfont{    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
