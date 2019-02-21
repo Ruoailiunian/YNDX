@@ -25,9 +25,12 @@ a:hover,a:focus{ text-decoration: none; }
 
 .dyp{ /*width: 1200px;*/ position: relative; margin: 0px auto;  background: #fff; }
 .dypL{ /*width: 633px;*/  /*background: #eee;*/  }
-.dypL .swiper-slide{/* text-align: center;*/ }
+.dypL .swiper-slide{/* text-align: center;*/ position: relative; }
+.dypL .swiper-slide a{ display: block; }
 .dypL .swiper-slide img{ width: 100%; }
-.dypL .swiper-pagination{ width: auto; left: auto; right: 30px; }
+.dypL .swiper-pagination{ width: auto; left: auto; right: 30px; position: absolute; bottom: 0px; height: 35px; line-height: 35px; z-index: 999; }
+.dypL .swiper-pagination span{ width: 10px; height: 10px; margin: 0px 10px; background: #fff; display: inline-block; border-radius: 50%; }
+.dypL .swiper-pagination span.swiper-active-switch{ background: #2863a7 }
 .dypL .swiper-wrapper .swiper-slide span{ position: absolute; z-index: 99; width: 100%; left: 0px; bottom: 0px; display: block; height: 35px; line-height: 35px; text-indent: 1em; background: #978986; background: rgba(77,86,109,0.5); color: #fff; }
 .dypR{ /*width: 550px;*/  }
 .newTt{ clear: both; }
