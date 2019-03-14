@@ -1,0 +1,27 @@
+@media screen and (max-width: 750px){
+	.ss{ display: none; }
+	.nav{ height: 100px; }
+	.nav ul li{ width: 20%; }
+	.banner{ display: none; }
+	.Yqlj{ display: none; }
+	.Xbcs{ display: none; }
+	.Qtlj{ display: none; }
+}
+
+@media screen and (min-width: 751px) and (max-width: 970px){
+	.ss{ display: none; }
+}
+
+
+@media screen and (min-width: 1200px){
+	.headN{ width: 1200px; }
+	.top{ display: block; }
+	.topN{ width: 1200px;}
+	.navN{ width: 1200px; }
+	.main{ width: 1200px; }
+	.dypL .swiper-container{ width: 633px; }
+	.footerN{ width: 1200px; }
+	.Ztwz{ margin-top: 30px; }
+	.kxys ul li ul{margin-left: 30px; }
+
+}
