@@ -1,5 +1,5 @@
 a:hover,a:focus{ text-decoration: none; }
-.top{ width: 100%; height: 35px; line-height: 35px; background: #2863a7; color: #fff; }
+.top{ width: 100%; height: 35px; line-height: 35px; background: #2863a7; color: #fff; display: block; }
 .topN{ position: relative; margin: 0px auto; }
 .topN ul{ float: right; margin-right: 30px; }
 .topN ul li{ float: left; padding: 0px 10px; height: 25px; line-height: 25px; background: #ff2d00; color: #fff; margin: 5px 10px; border-radius: 2px;}
