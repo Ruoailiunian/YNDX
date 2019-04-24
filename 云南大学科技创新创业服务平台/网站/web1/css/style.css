@@ -46,7 +46,7 @@ a:hover,a:focus{ text-decoration: none; }
 .dep{ /*width: 1200px;*/ position: relative; margin: 0px auto; clear: both;  margin-top: 20px;}
 .kxys{ width: 100%; /*height: 230px;*/margin-top: 20px; }
 .kxys ul{ margin: 0px; padding: 0px; }
-.kxys ul li{  height: 230px; text-align: center; }
+.kxys ul li{  /*height: 230px;*/ text-align: center; }
 .kxys ul li a{ width: 100px; height: 100px; background: #2863a7; display: block; position: relative; margin: 0px auto; margin-top: 10px; }
 .kxys ul li a span{ display: block; width: 100px; height: 100px; background: url(../images/depmb.png) no-repeat center center; }
 .kxys ul li a i{ font-size: 30px;color: #fff; display: block; width: 100%; height: 100px; line-height: 100px; text-align: center; }
@@ -112,6 +112,10 @@ a:hover,a:focus{ text-decoration: none; }
 .lmBt1 h3{ font-size: 16px; font-weight: 600; height: 40px; line-height: 40px; }
 .lmBt1 p{ color: #999; font-size: 12px; height: 20px; line-height: 20px; }
 
+.lmBt2{ width: 100%; height: 70px; text-align: center; background: url(../images/lmbt2.png) no-repeat center center; margin-bottom: 20px; }
+.lmBt2 h3{ font-size: 16px; font-weight: 600; height: 70px; line-height: 70px; width: 50%; float: left; text-align: right; }
+.lmBt2 p{  font-size: 16px; font-weight: 600; height: 70px; line-height: 70px; width: 50%; float: right; text-align: left; }
+
 .footer{ width: 100%; background: #337aca; border-top: 20px solid #2863a7; }
 .footerN{ position: relative; margin: 0px auto; }
 .ljbt{ width: 100%; height: 45px; line-height: 45px; font-size: 15px; font-weight: bold; color: #fff; }
@@ -133,6 +137,9 @@ a:hover,a:focus{ text-decoration: none; }
 .content .wztime i{}
 .content .wztime span{ font-size: 13px; color: #999; }
 .content .hytime{ width: 90%; position: relative; margin: 10px auto; }
+
+.qdxx{ float: right; }
+.qdxx span{ padding: 10px 30px; background: #f57382; border-radius: 2px; color: #fff; }
 
 
 /*bootstarp对layui框架legen元素的错位修正*/
@@ -202,3 +209,79 @@ a:hover,a:focus{ text-decoration: none; }
 .lmBt.row{ margin-left: 0px; }
 .lmBt .dropdown-menu li{ width: 100%; }
 .lmBt .dropdown-menu li a{ width: 100%; float: none; }
+
+.gqxx{ width: 100%; }
+.ghxx{ width: 90%; display: block; background: #f6f6f6; border:1px solid #eee; padding: 5px; margin: 10px 0px; margin-left: 5%;  }
+.ghxx h5{ line-height: 25px; padding: 10px 0px; font-size: 16px;  padding-left: 10px; }
+.ghxx h5 a{ color: #2863a7; }
+.ghxx p{ line-height: 25px; color: #999; font-size: 12px; margin-top: 10px;text-indent: 2em; }
+.ghxx .gqxxuse{}
+.ghxx .gqxxuse span{ margin-right: 10px; margin-left: 10px; height: 20px; line-height: 20px; }
+.ghxx .gqxxuse { margin: 10px 0px; text-align: right; color: #555; display: none; }
+.ghxx .gqxxuse em{ margin-right: 10px; }
+.gqxxL{ border-right: 1px dotted #ccc; }
+.gqxxfy{ text-align: center; }
+
+.kxys ul{ display: inline-block; width: 100%; }
+.kxys ul li ul.gnmc{ clear: both; margin-left: 0px; }
+.kxys ul li ul.gnmc li:after{ content: ''; }
+.kxys ul li ul.gnmc li{ background: #f6f6f6; margin: 2px 5px; padding-left: 5px; font-size: 13px; }
+.kxys ul li ul.gnmc li a{ font-size: 13px; }
+.lyzx { margin-top: 20px; }
+.lyzxnr .layui-field-box{ line-height: 25px; color: #555; }
+.lyzxnr .layui-field-box p{ font-size: 13px; line-height: 25px; }
+
+
+.zpzwsx{ width: 100%; background: #eee; padding-top: 10px; }
+.zpzwsx .layui-form-item{ margin-bottom: 5px; }
+.zplistdiv{ width: 100%; margin-top: 5px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+.zplistdivL h3{ height: 45px; line-height: 45px; font-size: 18px; }
+.zpiyx{ height: 45px; line-height: 45px; font-size: 24px; color: #f25869; font-weight: bold; }
+.zpiyx em{ font-size: 14px; margin-left: 10px; }
+.zpps{ height: 25px; line-height: 25px; }
+.zpps span{ padding: 2px 10px; background: #f6f6f6; margin: 0px 5px; border-radius: 2px; color: #999; }
+.zplistdivC h6{ height: 45px; line-height: 45px; font-size: 13px; }
+.zplistdivC h6 a{ color: #999; }
+.zptj{ height: 45px; line-height: 45px; color: #777; }
+.zptj span:after{ content: "|"; margin-left: 5px; color: #777; }
+.zptj span{ margin: 0px 5px; }
+.zplistdivR{ text-align: center; }
+.zplistdivR input{ width: 90%; height: 45px; line-height: 45px; background: #f57382; color: #fff; border:none; border-radius: 2px; margin-top: 25px; font-size: 15px; }
+
+.zpnr{ width: 100%; position: relative; margin: 0px auto;   }
+.zpnrN{width: 90%;background: #f6f6f6; display: inline-block;padding: 15px 5%; box-sizing: content-box; margin-bottom: 15px;}
+.zpnrxx{ width: 100%; }
+.zpnrxxL h3{ height: 45px; line-height: 45px; font-size: 24px; font-weight: normal; }
+.zpnrxxR{ font-size: 24px; color: #f25869; font-weight: bold; height: 45px; line-height: 45px; }
+.zpnrxxR em{ font-size: 14px; margin-left: 10px;}
+.zpnrtext{ margin: 10px 0px; line-height: 200%; font-size: 16px; color: #777; }
+.zpnrtext p{ text-indent: 2em; }
+.zpnr .zpnrps{ padding-bottom: 20px; border-bottom: 1px solid #eee; margin-bottom: 10px; height: 35px; line-height: 35px; margin-top: 20px; box-sizing: content-box; }
+.zpnr .zpnrps .zpps{ height: 45px; line-height: 45px; }
+.zpnr .layui-elem-quote{ border-left: 5px solid #f57382; }
+.zpnr .zplistdivR{ width: 180px; position: relative; margin: 0px auto; }
+.zpnrN .layui-field-box{ line-height: 200%; font-size: 16px; }
+.zpnrN .layui-field-box img{ max-width: 100%; }
+
+.jllist{ width: 100%; }
+.jllistdiv{ margin-top: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee; width: 100%; margin-left: 0px; }
+.jllistdivimg { padding: 0px; }
+.jllistdivimg img{ width: 100%; margin-top: 10px; }
+.jllistdivxxname{ height: 45px; line-height: 45px; }
+.jllistdivxxname h3{float: left; margin-right: 15px; height: 45px; line-height: 45px; }
+.jllistdivxxname span{ display: block; float: left; height: 45px; line-height: 45px; margin: 0px 5px; color: #555; }
+.jllistdivxxname span:after{ content: "|"; margin-left: 5px; color: #555; }
+.jllistdivxx p{ clear: both; line-height: 200%; font-size: 15px; color: #555; text-indent: 2em; }
+
+.jlnr .jllistdivxxname h3{ width: 100%; float: none; }
+.jlnr .jllistdivxxname span{ font-size: 16px; margin: 0px 10px; }
+.jlnr .zpps{ height: 45px; line-height: 45px; }
+.jlnr .zpps span{ height: 35px; line-height: 35px; padding:5px 15px; font-size: 16px; }
+.qzyqW{ width: 100%; clear: both; margin-top: 20px;}
+.qzyq{  }
+.qzyq li{ /*height: 45px; */line-height: 45px; font-size: 16px; }
+.qzyq li span{ color: #000; }
+.qzyq li em{ color: #999; }
+.qzyq .jllistdivdow{ text-align: center; padding: 0px; }
+.qzqtxx{ clear: both; margin-top: 15px; }
+.qzqtxx .layui-field-box{ line-height: 200%; font-size: 16px; }

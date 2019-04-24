@@ -4,6 +4,8 @@
   var layer = layui.layer
  // layer.msg('Hello World');
   //layer.msg('Hello World');
+  //
+  
 
 
   //日期
@@ -12,5 +14,20 @@
   laydate.render({
     elem: '#Sr_date' //指定元素
   });
+
+  $(function(){
+  	$('.qdxx').click(function(){
+  		layer.open({
+  		type:1,
+	  	title:'填写信息',
+	  	btn:['提交','取消'],
+	  	content:$('#layuialert'),
+	  	shade:0.3,
+	  	shadeClose:true,
+	  	anim: 2,
+	  	area: '500px',
+	  })
+  	})
+  })
 
 }();
